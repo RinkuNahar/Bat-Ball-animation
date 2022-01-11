@@ -1,0 +1,25 @@
+div{
+    border: 1px solid red;
+}
+ .animation:hover .bat{
+    transform: translate(300px) rotate(-8deg);
+    transform-origin: top left;
+    
+}
+.bat{
+    transition: transform 0.5s ease-in;
+    
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 90px;
+}
+.animation:hover .ball{
+    transform: translate(900px,-150px);
+}
+.ball{
+    transition: transform 1s ease-out 0.5s;
+}
